@@ -113,7 +113,7 @@ export default function Report() {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-4 relative w-full h-screen">
-      <div className="bg-teal-700 flex justify-center flex-col p-4 rounded-xl h-4/5 relative w-8/12">
+      <div className="bg-teal-700 flex justify-center flex-col p-4 rounded-xl h-4/5 relative w-full">
         <BackButton />
         {currentStep === 0 && (
           <>
