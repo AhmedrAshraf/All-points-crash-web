@@ -26,10 +26,10 @@ const Login = () => {
         const currData = {
           name,
           email,
-          phone,
           image: "",
           aaaCard: "",
           vehicleReg: "",
+          phone: phoneNum,
           emergencyNo1: "",
           emergencyNo2: "",
           insuranceCard: "",
