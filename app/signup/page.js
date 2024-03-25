@@ -23,14 +23,23 @@ const Login = () => {
     e.preventDefault();
     createUserWithEmailAndPassword(auth, email, psw)
       .then((user) => {
-        setDoc(doc(database, "users", user.user.uid), {
+        const currData = {
           name,
           email,
-          phoneNum,
-          address,
-        })
-          .then(async (user) => {
-            await localStorage.setItem("user", user.user.uid);
+          phone,
+          image: "",
+          aaaCard: "",
+          vehicleReg: "",
+          emergencyNo1: "",
+          emergencyNo2: "",
+          insuranceCard: "",
+          drivingLicence: "",
+          uid: user.user.uid,
+          createdAt: Date.now(),
+        };
+        setDoc(doc(database, "users", user.user.uid), currData)
+          .then(async () => {
+            await localStorage.setItem("user", JSON.stringify(currData));
             router.replace("/home");
           })
           .catch((er) => alert(er));

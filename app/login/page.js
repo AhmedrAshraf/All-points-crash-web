@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { auth } from "../../firebase";
+import { auth, database } from "../../firebase";
 import React, { useState } from "react";
 import logo from "../../assets/logo.png";
 import { useRouter } from "next/navigation";
@@ -9,6 +9,7 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { signInWithEmailAndPassword } from "firebase/auth";
 import Link from "next/link";
+import { doc, getDoc } from "firebase/firestore";
 
 const Login = () => {
   const router = useRouter();
@@ -18,13 +19,15 @@ const Login = () => {
   const handleLogin = async (e) => {
     e.preventDefault();
     signInWithEmailAndPassword(auth, email, psw)
-      .then(async (user) => {
-        await localStorage.setItem("user", user.user.uid)
-        router.replace("/home");
+      .then((user) => {
+        getDoc(doc(database, "users", user.user.uid)).then(async (sna) => {
+          if (sna.exists()) {
+            await localStorage.setItem("user", JSON.stringify(sna.data()));
+            router.replace("/home");
+          }
+        });
       })
-      .catch((er) => {
-        alert(er);
-      });
+      .catch((er) => alert(er));
   };
 
   return (
@@ -79,4 +82,4 @@ const Login = () => {
   );
 };
 
-export default Login
+export default Login;
