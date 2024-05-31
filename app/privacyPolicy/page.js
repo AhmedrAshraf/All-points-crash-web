@@ -36,7 +36,7 @@ export default function PrivacyPolicy() {
           </p>
           <p className="my-4">
             Affiliate means an entity that controls, is controlled by or is
-            under common control with a party, where "control" means ownership
+            under common control with a party, where &quot;control&quot; means ownership
             of 50% or more of the shares, equity interest or other securities
             entitled to vote for election of directors or other managing
             authority.
@@ -46,7 +46,7 @@ export default function PrivacyPolicy() {
             provided by the Company.
           </p>
           <p className="my-4">
-            Company (referred to as either "the Company", "We", "Us" or "Our" in
+            Company (referred to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in
             this Agreement) refers to All Points Collision Center, 11700 Space
             Center Blvd #106, Houston, TX 77059.
           </p>
@@ -94,7 +94,7 @@ export default function PrivacyPolicy() {
           <h3 className="font-semibold text-lg mb-2">Usage Data</h3>
           <p className="my-4">
             Usage Data is collected automatically when using the Service. Usage
-            Data may include information such as Your Device's Internet Protocol
+            Data may include information such as Your Device&quot;s Internet Protocol
             address (e.g. IP address), browser type, browser version, the pages
             of our Service that You visit, the time and date of Your visit, the
             time spent on those pages, unique device identifiers and other
@@ -122,10 +122,10 @@ export default function PrivacyPolicy() {
           </p>
           <p className="my-4">Information regarding your location</p>
           <p className="my-4">
-            Pictures and other information from your Device's camera and photo
+            Pictures and other information from your Device&quot;s camera and photo
             library We use this information to provide features of Our Service,
             to improve and customize Our Service. The information may be
-            uploaded to the Company's servers and/or a Service Provider's server
+            uploaded to the Company&quot;s servers and/or a Service Provider&quot;s server
             or it may be simply stored on Your device.
           </p>
           <p className="my-4">
@@ -157,7 +157,7 @@ export default function PrivacyPolicy() {
           <p className="my-4">
             To contact You: To contact You by email, telephone calls, SMS, or
             other equivalent forms of electronic communication, such as a mobile
-            application's push notifications regarding updates or informative
+            application&quot;s push notifications regarding updates or informative
             communications related to the functionalities, products or
             contracted services, including the security updates, when necessary
             or reasonable for their implementation.
@@ -244,7 +244,7 @@ export default function PrivacyPolicy() {
           </h3>
           <p className="my-4">
             Your information, including Personal Data, is processed at the
-            Company's operating offices and in any other places where the
+            Company&quot;s operating offices and in any other places where the
             parties involved in the processing are located. It means that this
             information may be transferred to — and maintained on — computers
             located outside of Your state, province, country or other
@@ -326,7 +326,7 @@ export default function PrivacyPolicy() {
             commercially acceptable means to protect Your Personal Data, We
             cannot guarantee its absolute security.
           </p>
-          <h3 className="font-semibold text-lg mb-2">Children's Privacy</h3>
+          <h3 className="font-semibold text-lg mb-2">Children&quot;s Privacy</h3>
           <p className="my-4">
             Our Service does not address anyone under the age of 13. We do not
             knowingly collect personally identifiable information from anyone
@@ -339,7 +339,7 @@ export default function PrivacyPolicy() {
           <p className="my-4">
             If We need to rely on consent as a legal basis for processing Your
             information and Your country requires consent from a parent, We may
-            require Your parent's consent before We collect and use that
+            require Your parent&quot;s consent before We collect and use that
             information.
           </p>
           <h3 className="font-semibold text-lg mb-2">
@@ -348,7 +348,7 @@ export default function PrivacyPolicy() {
           <p className="my-4">
             Our Service may contain links to other websites that are not
             operated by Us. If You click on a third party link, You will be
-            directed to that third party's site. We strongly advise You to
+            directed to that third party&quot;s site. We strongly advise You to
             review the Privacy Policy of every site You visit. We have no
             control over and assume no responsibility for the content, privacy
             policies or practices of any third party sites or services.
