@@ -36,17 +36,17 @@ export default function Terms() {
             and developed by Apple Inc. (Apple App Store) or Google Inc. (Google
             Play Store) in which the Application has been downloaded. Affiliate
             means an entity that controls, is controlled by or is under common
-            control with a party, where "control" means ownership of 50% or more
+            control with a party, where &quot;control&quot; means ownership of 50% or more
             of the shares, equity interest or other securities entitled to vote
             for election of directors or other managing authority. Account means
             a unique account created for You to access our Service or parts of
             our Service. Country refers to: Texas, United States. Company
-            (referred to as either "the Company", "We", "Us" or "Our" in this
+            (referred to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this
             Agreement) refers to All Points Collision Center, 11700 Space Center
             Blvd #106, Houston, TX 77059. Device means any device that can
             access the Service such as a computer, a cellphone or a digital
             tablet. Service refers to the Application. Terms and Conditions
-            (also referred as "Terms") mean these Terms and Conditions that form
+            (also referred as &quot;Terms&quot;) mean these Terms and Conditions that form
             the entire agreement between You and the Company regarding the use
             of the Service. Third-party Social Media Service means any services
             or content (including data, information, products or services)
@@ -177,7 +177,7 @@ export default function Terms() {
             "AS IS" and "AS AVAILABLE" Disclaimer
           </h2>
           <p className="my-4">
-            The Service is provided to You "AS IS" and "AS AVAILABLE" and with
+            The Service is provided to You &quot;AS IS&quot; and &quot;AS AVAILABLE&quot; and with
             all faults and defects without warranty of any kind. To the maximum
             extent permitted under applicable law, the Company, on its own
             behalf and on behalf of its Affiliates and its and their respective
@@ -244,8 +244,8 @@ export default function Terms() {
           <p className="my-4">
             You represent and warrant that (i) You are not located in a country
             that is subject to the United States government embargo, or that has
-            been designated by the United States government as a "terrorist
-            supporting" country, and (ii) You are not listed on any United
+            been designated by the United States government as a &quot;terrorist
+            supporting&quot; country, and (ii) You are not listed on any United
             States government list of prohibited or restricted parties.
           </p>
 
